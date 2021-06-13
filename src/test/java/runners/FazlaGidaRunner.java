@@ -12,9 +12,9 @@ import org.junit.runner.RunWith;
 
         features = "src/test/resources/features",
         glue = "stepdefinitions",
-        tags = "@kisiselBilgiler",
+        tags = "@Uzman",
         dryRun = false
 )
-public class TutumluAnnelerRunner {
+public class FazlaGidaRunner {
 
 }

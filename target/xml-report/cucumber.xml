@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="209.707">
+    <testcase classname="System should allow user to navigate on HomePage" name="US01_TC01 HomePage navigation" time="67.027">
+        <system-out>
+            <![CDATA[Given User goes to the homepage "https://www.fazlagida.com/"................passed
+Given User scroll down to the second page...................................passed
+And User scroll slowly to the bottom of the page............................passed
+And And User clicks on the FACEBOOK link....................................passed
+Then User navigate back to the homepage.....................................passed
+And User clicks on the TWITTER page.........................................passed
+Then User navigate back to the homepage.....................................passed
+And User click the button of UP.............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="System should allow user to navigate all links on header" name="US02_TC01 Header Links Test" time="87.463">
+        <system-out>
+            <![CDATA[Given User goes to the homepage "https://www.fazlagida.com/"................passed
+Given User clicks the Atik Olmasin link on HomePage.........................passed
+And User clicks the Hakkimizda Link.........................................passed
+And User clicks Gida Isletmeleri link on homepage...........................passed
+And User clicks Gida Bankalari link on HomePage.............................passed
+And User clicks Kariyer link on Homepage....................................passed
+And User clicks on Bize Ulasin link on HomePage.............................passed
+And User clicks on App link on HomePage.....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="System should allow user talk with expert." name="US03_TC01 Uzmanla Gorusun Testi" time="54.656">
+        <system-out>
+            <![CDATA[Given User goes to the homepage "https://www.fazlagida.com/"................passed
+Given User clicks the Atik Olmasin link on HomePage.........................passed
+Then User clicks the Uzmanimizla Gorusun link...............................passed
+And User enters name and surname on adi Soyadi Textbox "Ali Can"............passed
+And User enters Company Name on Firma Adi Textbox "TestOtomation"...........passed
+And User enters E-mail on E-posta Textbox "alicanbelli@gmail.com"...........passed
+And User enters phoneNumber on adi Telefon "905552112211"...................passed
+And User enters product name on adi Urun Adi "Ekmek"........................passed
+Then User selects Atik Urun.................................................passed
+And User enters amount on Miktar TextBox"3 ton".............................passed
+And User enters Location on Lokasyon TextBox"Ankara"........................passed
+Then User selects the Urunleri hayvan barinaklarina bagisliyorum............passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

@@ -1,0 +1,575 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "HomePage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 24589724600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User goes to the homepage \"https://www.fazlagida.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.fazlagida.com/\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.A_US_01_Homepage_StepDefinitions.user_goes_to_the_homepage(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-13T09:24:43.657Z",
+        "line": 10,
+        "name": "US01_TC01 HomePage navigation",
+        "description": "",
+        "id": "system-should-allow-user-to-navigate-on-homepage;us01-tc01-homepage-navigation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 109029100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User scroll down to the second page.",
+            "match": {
+              "location": "stepdefinitions.A_US_01_Homepage_StepDefinitions.user_scroll_down_to_the_second_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15280197300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User scroll slowly to the bottom of the page",
+            "match": {
+              "location": "stepdefinitions.A_US_01_Homepage_StepDefinitions.user_scroll_slowly_to_the_bottom_of_the_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7152249200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "And User clicks on the FACEBOOK link",
+            "match": {
+              "location": "stepdefinitions.A_US_01_Homepage_StepDefinitions.and_User_clicks_on_the_FACEBOOK_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4557368600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User navigate back to the homepage",
+            "match": {
+              "location": "stepdefinitions.A_US_01_Homepage_StepDefinitions.user_navigate_back_to_the_homepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10783257300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User clicks on the TWITTER page",
+            "match": {
+              "location": "stepdefinitions.A_US_01_Homepage_StepDefinitions.user_clicks_on_the_TWITTER_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3168094300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User navigate back to the homepage",
+            "match": {
+              "location": "stepdefinitions.A_US_01_Homepage_StepDefinitions.user_navigate_back_to_the_homepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1278603100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User click the button of UP",
+            "match": {
+              "location": "stepdefinitions.A_US_01_Homepage_StepDefinitions.user_click_the_button_of_UP()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HomePage"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@US01_TC"
+          }
+        ]
+      }
+    ],
+    "name": "System should allow user to navigate on HomePage",
+    "description": "",
+    "id": "system-should-allow-user-to-navigate-on-homepage",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/A_US_01_Homepage.feature",
+    "tags": [
+      {
+        "name": "@HomePage",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 11
+        }
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "HomePage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 17744274000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User goes to the homepage \"https://www.fazlagida.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.fazlagida.com/\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.A_US_01_Homepage_StepDefinitions.user_goes_to_the_homepage(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-13T09:25:50.745Z",
+        "line": 9,
+        "name": "US02_TC01 Header Links Test",
+        "description": "",
+        "id": "system-should-allow-user-to-navigate-all-links-on-header;us02-tc01-header-links-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4577938600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks the Atik Olmasin link on HomePage",
+            "match": {
+              "location": "stepdefinitions.B_US_02_Links_StepDefinitions.user_clicks_the_Atik_Olmasin_link_on_HomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10080681900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks the Hakkimizda Link",
+            "match": {
+              "location": "stepdefinitions.B_US_02_Links_StepDefinitions.user_clicks_the_Hakkimizda_Link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15961128900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks Gida Isletmeleri link on homepage",
+            "match": {
+              "location": "stepdefinitions.B_US_02_Links_StepDefinitions.user_clicks_Gida_Isletmeleri_link_on_homepage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8899006300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User clicks Gida Bankalari link on HomePage",
+            "match": {
+              "location": "stepdefinitions.B_US_02_Links_StepDefinitions.user_clicks_Gida_Bankalari_link_on_HomePage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10773261500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User clicks Kariyer link on Homepage",
+            "match": {
+              "location": "stepdefinitions.B_US_02_Links_StepDefinitions.user_clicks_Kariyer_link_on_Homepage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2047118300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User clicks on Bize Ulasin link on HomePage",
+            "match": {
+              "location": "stepdefinitions.B_US_02_Links_StepDefinitions.user_clicks_on_Bize_Ulasin_link_on_HomePage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17308282900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User clicks on App link on HomePage",
+            "match": {
+              "location": "stepdefinitions.B_US_02_Links_StepDefinitions.user_clicks_on_App_link_on_HomePage()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@links"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@US02_TC01"
+          }
+        ]
+      }
+    ],
+    "name": "System should allow user to navigate all links on header",
+    "description": "",
+    "id": "system-should-allow-user-to-navigate-all-links-on-header",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/B_US_02_Links.feature",
+    "tags": [
+      {
+        "name": "@links",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 8
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "HomePage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 19486500100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User goes to the homepage \"https://www.fazlagida.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.fazlagida.com/\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.A_US_01_Homepage_StepDefinitions.user_goes_to_the_homepage(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-13T09:27:18.238Z",
+        "line": 28,
+        "name": "US03_TC01 Uzmanla Gorusun Testi",
+        "description": "",
+        "id": "system-should-allow-user-talk-with-expert.;us03-tc01-uzmanla-gorusun-testi;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8029985900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks the Atik Olmasin link on HomePage",
+            "match": {
+              "location": "stepdefinitions.B_US_02_Links_StepDefinitions.user_clicks_the_Atik_Olmasin_link_on_HomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3616525800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks the Uzmanimizla Gorusun link.",
+            "match": {
+              "location": "stepdefinitions.C_US_03_UzmanlaGorus_StepDefinitions.user_clicks_the_Uzmanimizla_Gorusun_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11628292500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters name and surname on adi Soyadi Textbox \"Ali Can\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ali Can\"",
+                  "offset": 51
+                }
+              ],
+              "location": "stepdefinitions.C_US_03_UzmanlaGorus_StepDefinitions.user_enters_name_and_surname_on_adi_Soyadi_Textbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1237660600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enters Company Name on Firma Adi Textbox \"TestOtomation\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"TestOtomation\"",
+                  "offset": 46
+                }
+              ],
+              "location": "stepdefinitions.C_US_03_UzmanlaGorus_StepDefinitions.user_enters_Company_Name_on_Firma_Adi_Textbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1297939500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enters E-mail on E-posta Textbox \"alicanbelli@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"alicanbelli@gmail.com\"",
+                  "offset": 38
+                }
+              ],
+              "location": "stepdefinitions.C_US_03_UzmanlaGorus_StepDefinitions.user_enters_E_mail_on_E_posta_Textbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1232072000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters phoneNumber on adi Telefon \"905552112211\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"905552112211\"",
+                  "offset": 39
+                }
+              ],
+              "location": "stepdefinitions.C_US_03_UzmanlaGorus_StepDefinitions.user_enters_phoneNumber_on_adi_Telefon(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1248888400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters product name on adi Urun Adi \"Ekmek\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ekmek\"",
+                  "offset": 41
+                }
+              ],
+              "location": "stepdefinitions.C_US_03_UzmanlaGorus_StepDefinitions.user_enters_product_name_on_adi_Urun_Adi(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1236369700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User selects Atik Urun",
+            "match": {
+              "location": "stepdefinitions.C_US_03_UzmanlaGorus_StepDefinitions.user_selects_Atik_Urun()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1206406000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters amount on Miktar TextBox\"3 ton\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3 ton\"",
+                  "offset": 36
+                }
+              ],
+              "location": "stepdefinitions.C_US_03_UzmanlaGorus_StepDefinitions.userEntersAmountOnMiktarTextBox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2235147500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enters Location on Lokasyon TextBox\"Ankara\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ankara\"",
+                  "offset": 40
+                }
+              ],
+              "location": "stepdefinitions.C_US_03_UzmanlaGorus_StepDefinitions.userEntersLocationOnLokasyonTextBox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2175084700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User selects the Urunleri hayvan barinaklarina bagisliyorum.",
+            "match": {
+              "location": "stepdefinitions.C_US_03_UzmanlaGorus_StepDefinitions.user_selects_the_Urunleri_hayvan_barinaklarina_bagisliyorum()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Uzman"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@US03_TC01"
+          }
+        ]
+      }
+    ],
+    "name": "System should allow user talk with expert.",
+    "description": "",
+    "id": "system-should-allow-user-talk-with-expert.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/C_US_03_UzmanlaGorus.feature",
+    "tags": [
+      {
+        "name": "@Uzman",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 8
+        }
+      }
+    ]
+  }
+]
